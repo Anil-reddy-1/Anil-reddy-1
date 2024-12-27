@@ -1,0 +1,135 @@
+
+@media screen and (min-width:300px){
+  *{
+  background-color: ghostwhite;
+}
+  
+    body{
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  h1{
+    font-size: 1.87rem;
+  }
+  h2{font-size: 1.75rem}
+  h3{font-size: 1.5rem}
+  h4{font-size: 1.25rem}
+  
+  
+  #title{
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color:black;
+  border-radius: 2px;
+}
+#nav{
+  margin: 0px;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.navlink{
+  background-color: black;
+}
+.nav{
+  background-color:black;
+  color:white;
+  font-size-adjust:1.25rem;
+  margin: 0px;
+  border: 0px;
+}
+  
+  
+.main{
+  display: flex;
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+}
+  .1box{
+    background-color: yellowgreen;
+  }
+.box{
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: 16px;
+  border:1px solid grey;
+  box-shadow:dimgray;
+  border-radius: 10px;
+  background-image: url("paddy.png");
+  background-color: yellowgreen;
+}
+#image1{
+  padding-top: 16px;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  background-color: yellowgreen;
+}
+.crop-name{
+  font-size: 1.25rem;
+  margin: 0px 0px 0px 0px;
+  background-color: darkslategrey;
+}
+a{
+  background-color: yellowgreen;
+  text-decoration: none;
+  color: black;
+}
+a,#image1:hover,visited{
+  color: gainsboro;
+  background-color: grey;
+}
+
+.footer{
+  background-color:  dimgrey;
+}
+.list{
+  background-color:  dimgrey;
+  list-style:  none;
+}
+a{
+  text-decoration: none;
+}
+.footer{
+  text-align:  center;
+  padding: 10px;
+}
+.footer li {
+  display: inline;
+  margin:0 20px;
+}
+.fo{
+  background-color: dimgrey;
+  color:white;
+}
+.footer p{
+  background-color: dimgrey;
+  color:white;
+}
+  
+  
+  
+}
+
+@media screen and (min-width:900px){
+
+  #wholebox{
+    display: flex;
+     flex-wrap:  wrap;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
